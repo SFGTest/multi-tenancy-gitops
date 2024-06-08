@@ -1,6 +1,8 @@
 resources:
 # IBM Software
-
+- services/argocd/instances/ibm-sfg-db2-prod.yaml
+- services/argocd/instances/ibm-sfg-mq-prod.yaml
+- services/argocd/instances/ibm-sfg-b2bi-prod-setup.yaml
 ## Cloud Pak for Integration
 #- argocd/operators/ibm-ace-operator.yaml
 #- argocd/operators/ibm-apic-operator.yaml
